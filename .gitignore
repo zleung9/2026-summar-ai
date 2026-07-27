@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch
+*.pt
+*.pth
+
+# Data (keep structure, ignore large files)
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Models (keep structure, ignore large checkpoints)
+models/*.pt
+models/*.pth
+models/*.pkl
