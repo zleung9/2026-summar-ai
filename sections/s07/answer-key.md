@@ -1,7 +1,7 @@
-# Section 7 参考答案
+# Section 7 Answer Key
 
-（教师专用，不对学生公开）
+(For teacher use only — do not share with students)
 
-## 作业参考答案
+## Homework Reference Answers
 
-（待补充）
+(To be filled)

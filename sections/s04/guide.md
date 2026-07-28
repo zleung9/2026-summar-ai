@@ -1,26 +1,26 @@
-# Section 4：模型评估、过拟合与优化
+# Section 4: Model Evaluation, Overfitting & Optimization
 
-> 时间：8月7日—8月9日
+> Dates: August 7 — August 9
 
-## 学习主题
+## Topics
 
-- 训练集、验证集和测试集
-- 交叉验证
-- 过拟合与欠拟合
-- 正则化
-- 数据泄漏
-- 模型评价指标
+- Training, validation, and test sets
+- Cross-validation
+- Overfitting and underfitting
+- Regularization
+- Data leakage
+- Model evaluation metrics
 
-## 推荐资源
+## Recommended Resources
 
-（待补充）
+(To be filled)
 
-## 思考问题
+## Framing Questions
 
-（待补充）
+(To be filled)
 
-## 自查检查点
+## Self-Check
 
-你学完本节后，应该能够：
+After completing this section, you should be able to:
 
-- （待补充）
+- (To be filled)

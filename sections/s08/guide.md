@@ -1,25 +1,25 @@
-# Section 8：项目完善、评估与最终展示
+# Section 8: Project Refinement, Evaluation & Final Presentation
 
-> 时间：9月22日—9月24日
+> Dates: September 22 — September 24
 
-## 学习主题
+## Topics
 
-- 模型误差分析
-- 项目结果解释
-- AI生成代码的质量检查
-- README和技术报告写作
-- 项目汇报与答辩
+- Model error analysis
+- Interpreting project results
+- Quality-checking AI-generated code
+- Writing README and technical reports
+- Project presentation and defense
 
-## 推荐资源
+## Recommended Resources
 
-（待补充）
+(To be filled)
 
-## 思考问题
+## Framing Questions
 
-（待补充）
+(To be filled)
 
-## 自查检查点
+## Self-Check
 
-你学完本节后，应该能够：
+After completing this section, you should be able to:
 
-- （待补充）
+- (To be filled)

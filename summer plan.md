@@ -1,284 +1,284 @@
-AI Native Machine Learning Engineer 暑期课程计划
+# AI Native Machine Learning Engineer — Summer Course Plan
 
-## 总体目标
+## Overall Goal
 
-24个学习日围绕一个高分子材料小项目展开，暂定项目为：
+24 study days centered on a polymer materials mini-project:
 
-> **基于机器学习的高分子材料性质预测**
+> **Predicting Polymer Material Properties with Machine Learning**
 
-可根据数据情况选择预测玻璃化转变温度、熔点或其他材料性质。
+The target property (glass transition temperature, melting point, etc.) will be chosen based on data availability.
 
-课程包含两条并行主线：
+The course follows two parallel threads:
 
-1. **Top-down：** 使用 Codex 完成数据分析、模型开发、调试、测试和项目展示。
-2. **Bottom-up：** 学习机器学习和神经网络基础，并最终理解其与 Transformer 的联系。
+1. **Top-down:** Use Claude Code for data analysis, model development, debugging, testing, and project presentation.
+2. **Bottom-up:** Learn machine learning and neural network fundamentals, culminating in understanding Transformers.
 
-最终要求YR完成：
+Final deliverables:
 
-* 一个可以运行的高分子材料机器学习项目
-* 一个完整的 GitHub 代码仓库
-* 一份项目说明和实验报告
-* 一次10—15分钟的项目演示
-
----
-
-## 答疑安排
-
-### 每日固定答疑
-
-每天早上 **8:00—8:30** 安排30分钟答疑，主要用于：
-
-* 检查前一天作业完成情况
-* 解答学习和编程过程中遇到的问题
-* 检查YR是否理解 Codex 生成的代码
-* 明确当天的学习任务
-
-### 每三天集中答疑
-
-每完成一个 Section，可根据实际情况临时安排一次 **1小时集中答疑**，主要用于：
-
-* 解决本阶段遗留问题
-* 检查三天作业
-* 讨论项目设计和模型选择
-* 调整下一阶段学习计划
+- A working machine learning project for polymer material properties
+- A complete GitHub repository
+- A project description and experiment report
+- A 10–15 minute project demo
 
 ---
 
-## Section 1：AI原生开发与环境准备
+## Q&A Schedule
 
-**时间：7月29日—7月31日**
+### Daily Check-in
 
-### 学习内容
+Every morning **8:00–8:30**, a 30-minute session for:
 
-* 安装和配置 Python、Git、GitHub、Codex
-* 学习如何向 Codex 描述任务、提供上下文和检查代码
-* 使用AI工具制定个人学习计划
-* 学习基本的 Python 项目结构
+- Reviewing the previous day's homework
+- Answering questions from learning and coding
+- Checking whether the student understands AI-generated code
+- Clarifying the day's learning tasks
 
-### 三天任务
+### Section-end Review
 
-* 第一天：完成开发环境和 GitHub 仓库配置
-* 第二天：使用 Codex 完成若干简单 Python 程序
-* 第三天：建立高分子材料项目的初始代码框架
+After each Section, schedule a **1-hour review session** as needed for:
 
-### 作业
-
-* 提交开发环境安装记录
-* 提交第一个 GitHub 项目仓库
-* 提交个人学习计划
-* 提交高分子材料项目任务清单
+- Resolving leftover issues from the section
+- Checking three days of homework
+- Discussing project design and model selection
+- Adjusting the next section's learning plan
 
 ---
 
-## Section 2：材料数据与监督学习基础
+## Section 1: AI-Native Development & Environment Setup
 
-**时间：8月1日—8月3日**
+**Dates: July 29 — July 31**
 
-### 学习内容
+### Topics
 
-* 数据、特征和标签的概念
-* 回归问题与分类问题
-* 高分子材料数据的基本结构
-* pandas、NumPy和数据可视化基础
+- Install and configure Python, Git, GitHub, Claude Code
+- Learn how to describe tasks, provide context, and review code with AI
+- Use AI tools to create a personal learning plan
+- Learn basic Python project structure
 
-### 三天任务
+### Three-Day Tasks
 
-* 第一天：确定项目要预测的材料性质
-* 第二天：使用 Codex 完成数据读取、清洗和可视化
-* 第三天：划分训练集和测试集，建立线性回归基线模型
+- Day 1: Set up the development environment and GitHub repository
+- Day 2: Use Claude Code to complete several simple Python programs
+- Day 3: Build the initial code framework for the polymer materials project
 
-### 作业
+### Homework
 
-* 提交一份数据集说明
-* 提交数据清洗和可视化 Notebook
-* 提交训练集、测试集划分代码
-* 提交线性回归基线模型及结果说明
-
----
-
-## Section 3：损失函数、梯度下降与分类
-
-**时间：8月4日—8月6日**
-
-### 学习内容
-
-* 均方误差和平均绝对误差
-* 梯度下降的基本思想
-* Logistic Regression
-* Accuracy、Precision、Recall和混淆矩阵
-
-### 三天任务
-
-* 第一天：比较不同损失函数的特点
-* 第二天：用简单例子实现或观察梯度下降过程
-* 第三天：将材料性质划分为高、低两类，完成一个分类实验
-
-### 作业
-
-* 提交损失函数比较实验
-* 提交梯度下降可视化结果
-* 提交材料分类模型代码
-* 用自己的语言解释梯度下降的基本原理
+- Submit a development environment installation record
+- Submit your first GitHub project repository
+- Submit your personal learning plan
+- Submit a task list for the polymer materials project
 
 ---
 
-## Section 4：模型评估、过拟合与优化
+## Section 2: Material Data & Supervised Learning Basics
 
-**时间：8月7日—8月9日**
+**Dates: August 1 — August 3**
 
-### 学习内容
+### Topics
 
-* 训练集、验证集和测试集
-* 交叉验证
-* 过拟合与欠拟合
-* 正则化
-* 数据泄漏
-* 模型评价指标
+- Concepts of data, features, and labels
+- Regression vs. classification problems
+- Basic structure of polymer material data
+- pandas, NumPy, and data visualization basics
 
-### 三天任务
+### Three-Day Tasks
 
-* 第一天：重新设计规范的数据划分流程
-* 第二天：比较线性模型、决策树和随机森林等模型
-* 第三天：分析模型是否过拟合，并尝试参数优化
+- Day 1: Decide which material property to predict
+- Day 2: Use Claude Code for data loading, cleaning, and visualization
+- Day 3: Split train/test sets and build a linear regression baseline model
 
-### 作业
+### Homework
 
-* 提交规范的数据划分和交叉验证代码
-* 提交不同模型的性能比较表
-* 提交过拟合分析
-* 说明项目最终选择某一模型的理由
+- Submit a dataset description
+- Submit a data cleaning and visualization notebook
+- Submit train/test split code
+- Submit the linear regression baseline model and results summary
 
 ---
 
-## Section 5：神经网络与项目第一版
+## Section 3: Loss Functions, Gradient Descent & Classification
 
-**时间：8月10日—8月12日**
+**Dates: August 4 — August 6**
 
-### 学习内容
+### Topics
 
-* 神经元、权重和激活函数
-* 输入层、隐藏层和输出层
-* 前向传播与反向传播的基本思想
-* 使用 PyTorch 构建简单神经网络
+- Mean Squared Error and Mean Absolute Error
+- Basic idea of gradient descent
+- Logistic Regression
+- Accuracy, Precision, Recall, and the confusion matrix
 
-### 三天任务
+### Three-Day Tasks
 
-* 第一天：理解多层感知机的结构
-* 第二天：使用 Codex 编写并训练一个简单神经网络
-* 第三天：比较神经网络与传统机器学习模型的结果
+- Day 1: Compare characteristics of different loss functions
+- Day 2: Implement or observe the gradient descent process with a simple example
+- Day 3: Bin material properties into high/low classes and complete a classification experiment
 
-### 作业
+### Homework
 
-* 提交一个可以正常训练和预测的神经网络
-* 提交神经网络与传统模型的结果比较
-* 提交高分子材料项目第一版
-* 撰写第一阶段学习总结
-
-**8月13日—8月14日：用于补课、代码整理、修改作业和集中答疑。**
+- Submit a loss function comparison experiment
+- Submit gradient descent visualization results
+- Submit material classification model code
+- Explain the basic principle of gradient descent in your own words
 
 ---
 
-## Section 6：AI原生软件工程与项目升级
+## Section 4: Model Evaluation, Overfitting & Optimization
 
-**时间：9月15日—9月17日**
+**Dates: August 7 — August 9**
 
-### 学习内容
+### Topics
 
-* 使用 Codex 阅读、重构和调试已有代码
-* 模块化项目结构
-* 配置文件、日志和异常处理
-* 单元测试与结果复现
-* Git分支、提交和版本管理
+- Training, validation, and test sets
+- Cross-validation
+- Overfitting and underfitting
+- Regularization
+- Data leakage
+- Model evaluation metrics
 
-### 三天任务
+### Three-Day Tasks
 
-* 第一天：将 Notebook 重构为规范的 Python 项目
-* 第二天：增加测试、配置和错误处理
-* 第三天：制作命令行程序或简单交互界面
+- Day 1: Redesign a proper data splitting pipeline
+- Day 2: Compare linear models, decision trees, random forests, etc.
+- Day 3: Analyze whether the model overfits and attempt hyperparameter tuning
 
-### 作业
+### Homework
 
-* 提交重构后的项目目录
-* 提交训练和预测脚本
-* 提交至少两个单元测试
-* 提交项目第二版及运行说明
-
----
-
-## Section 7：从神经网络到 Transformer
-
-**时间：9月18日—9月20日**
-
-### 学习内容
-
-* Token和Embedding
-* Attention的基本思想
-* Self-Attention
-* Transformer的整体结构
-* Transformer与普通神经网络的区别
-* 分子字符串和材料序列表示的基本概念
-
-### 三天任务
-
-* 第一天：理解 Token、Embedding和Attention
-* 第二天：使用简单代码观察 Self-Attention 的计算过程
-* 第三天：分析 Transformer 如何用于分子或材料数据，并与当前项目模型进行比较
-
-### 作业
-
-* 提交一个简单的 Attention 实验
-* 提交《从机器学习到 Transformer》学习笔记
-* 绘制一张 Transformer 基本结构图
-* 准备5分钟口头讲解，说明神经网络与 Transformer 的联系
-
-**9月21日：用于补课、项目排错、修改作业和集中答疑。**
+- Submit proper data splitting and cross-validation code
+- Submit a performance comparison table across models
+- Submit an overfitting analysis
+- Explain why you chose a particular model for the project
 
 ---
 
-## Section 8：项目完善、评估与最终展示
+## Section 5: Neural Networks & Project v1
 
-**时间：9月22日—9月24日**
+**Dates: August 10 — August 12**
 
-### 学习内容
+### Topics
 
-* 模型误差分析
-* 项目结果解释
-* AI生成代码的质量检查
-* README和技术报告写作
-* 项目汇报与答辩
+- Neurons, weights, and activation functions
+- Input, hidden, and output layers
+- Forward and backward propagation basics
+- Building a simple neural network with PyTorch
 
-### 三天任务
+### Three-Day Tasks
 
-* 第一天：检查数据泄漏、模型错误和异常预测
-* 第二天：完善代码、图表、README和汇报材料
-* 第三天：进行最终项目演示和答辩
+- Day 1: Understand the structure of a multi-layer perceptron
+- Day 2: Use Claude Code to write and train a simple neural network
+- Day 3: Compare neural network results with traditional ML models
 
-### 作业
+### Homework
 
-* 提交完整的高分子材料机器学习项目
-* 提交整理后的 GitHub 代码仓库
-* 提交数据处理和模型评估报告
-* 提交 Transformer 学习总结
-* 完成10—15分钟项目演示和答辩
+- Submit a neural network that can train and predict
+- Submit a comparison between the neural network and traditional models
+- Submit polymer materials project v1
+- Write a Phase 1 learning summary
+
+**August 13–14: Makeup days, code cleanup, homework revision, and review session.**
 
 ---
 
-# 每日建议节奏
+## Section 6: AI-Native Software Engineering & Project Upgrade
 
-每天学习约3小时：
+**Dates: September 15 — September 17**
 
-* 8:00—8:30：导师答疑及前一天作业检查
-* 45分钟：根据学习计划完成理论学习
-* 90分钟：使用 Codex 完成编程和项目任务
-* 30分钟：记录 Prompt、问题和实验结果
-* 15分钟：提交代码并撰写学习日志
+### Topics
 
-每天学习结束后，YR应提交：
+- Using Claude Code to read, refactor, and debug existing code
+- Modular project structure
+- Configuration files, logging, and error handling
+- Unit testing and result reproducibility
+- Git branching, commits, and version management
 
-* 当天完成的代码
-* 使用过的重要 Prompt
-* 遇到的问题及解决过程
-* 当天学习总结
-* 第二天准备解决的问题
+### Three-Day Tasks
 
-每三天完成一个 Section 后，根据学习情况安排一次1小时集中答疑，并对该阶段作业进行检查和评价。
+- Day 1: Refactor notebooks into a proper Python project
+- Day 2: Add tests, configuration, and error handling
+- Day 3: Build a CLI program or simple interactive interface
+
+### Homework
+
+- Submit the refactored project directory
+- Submit training and prediction scripts
+- Submit at least two unit tests
+- Submit project v2 with run instructions
+
+---
+
+## Section 7: From Neural Networks to Transformers
+
+**Dates: September 18 — September 20**
+
+### Topics
+
+- Tokens and Embeddings
+- The basic idea of Attention
+- Self-Attention
+- Overall Transformer architecture
+- Differences between Transformers and ordinary neural networks
+- Basic concepts of molecular strings and material sequence representations
+
+### Three-Day Tasks
+
+- Day 1: Understand Tokens, Embeddings, and Attention
+- Day 2: Use simple code to observe the Self-Attention computation process
+- Day 3: Analyze how Transformers can be applied to molecular or material data and compare with the current project model
+
+### Homework
+
+- Submit a simple Attention experiment
+- Submit "From ML to Transformers" study notes
+- Draw a diagram of the basic Transformer architecture
+- Prepare a 5-minute oral explanation of the connection between neural networks and Transformers
+
+**September 21: Makeup day, project debugging, homework revision, and review session.**
+
+---
+
+## Section 8: Project Refinement, Evaluation & Final Presentation
+
+**Dates: September 22 — September 24**
+
+### Topics
+
+- Model error analysis
+- Interpreting project results
+- Quality-checking AI-generated code
+- Writing README and technical reports
+- Project presentation and defense
+
+### Three-Day Tasks
+
+- Day 1: Check for data leakage, model errors, and anomalous predictions
+- Day 2: Polish code, charts, README, and presentation materials
+- Day 3: Deliver the final project demo and defense
+
+### Homework
+
+- Submit the complete polymer materials ML project
+- Submit the cleaned-up GitHub repository
+- Submit the data processing and model evaluation report
+- Submit the Transformer learning summary
+- Complete the 10–15 minute project demo and defense
+
+---
+
+# Suggested Daily Rhythm
+
+Approximately 3 hours of study per day:
+
+- 8:00–8:30: Teacher check-in and previous day's homework review
+- 45 min: Complete theory study per the learning plan
+- 90 min: Use Claude Code for programming and project tasks
+- 30 min: Record prompts, questions, and experiment results
+- 15 min: Commit code and write a learning log
+
+At the end of each day, submit:
+
+- Code completed that day
+- Important prompts used
+- Problems encountered and how they were resolved
+- A daily learning summary
+- Questions to address the next day
+
+After completing each Section (every 3 days), schedule a 1-hour review session and evaluate that section's homework.

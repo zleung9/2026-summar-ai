@@ -1,26 +1,26 @@
-# Section 7：从神经网络到 Transformer
+# Section 7: From Neural Networks to Transformers
 
-> 时间：9月18日—9月20日
+> Dates: September 18 — September 20
 
-## 学习主题
+## Topics
 
-- Token和Embedding
-- Attention的基本思想
+- Tokens and Embeddings
+- The basic idea of Attention
 - Self-Attention
-- Transformer的整体结构
-- Transformer与普通神经网络的区别
-- 分子字符串和材料序列表示的基本概念
+- Overall Transformer architecture
+- Differences between Transformers and ordinary neural networks
+- Basic concepts of molecular strings and material sequence representations
 
-## 推荐资源
+## Recommended Resources
 
-（待补充）
+(To be filled)
 
-## 思考问题
+## Framing Questions
 
-（待补充）
+(To be filled)
 
-## 自查检查点
+## Self-Check
 
-你学完本节后，应该能够：
+After completing this section, you should be able to:
 
-- （待补充）
+- (To be filled)

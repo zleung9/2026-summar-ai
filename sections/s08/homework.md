@@ -1,15 +1,15 @@
-# Section 8 作业
+# Section 8 Homework
 
-> 截止时间：9月24日
+> Due: September 24
 
-## 必做任务
+## Required Tasks
 
-（待补充）
+(To be filled)
 
-## 交付要求
+## Deliverables
 
-（待补充）
+(To be filled)
 
-## 验收标准
+## Acceptance Criteria
 
-（待补充）
+(To be filled)

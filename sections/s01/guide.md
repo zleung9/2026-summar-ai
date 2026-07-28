@@ -1,24 +1,24 @@
-# Section 1：AI原生开发与环境准备
+# Section 1: AI-Native Development & Environment Setup
 
-> 时间：7月29日—7月31日
+> Dates: July 29 — July 31
 
-## 学习主题
+## Topics
 
-- 安装和配置 Python、Git、GitHub、Claude Code
-- 学习如何向 AI 描述任务、提供上下文和检查代码
-- 使用 AI 工具制定个人学习计划
-- 学习基本的 Python 项目结构
+- Install and configure Python, Git, GitHub, Claude Code
+- Learn how to describe tasks, provide context, and review code with AI
+- Use AI tools to create a personal learning plan
+- Learn basic Python project structure
 
-## 推荐资源
+## Recommended Resources
 
-（待补充）
+(To be filled)
 
-## 思考问题
+## Framing Questions
 
-（待补充）
+(To be filled)
 
-## 自查检查点
+## Self-Check
 
-你学完本节后，应该能够：
+After completing this section, you should be able to:
 
-- （待补充）
+- (To be filled)

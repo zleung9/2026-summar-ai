@@ -1,15 +1,15 @@
-# Section 1 作业
+# Section 1 Homework
 
-> 截止时间：7月31日
+> Due: July 31
 
-## 必做任务
+## Required Tasks
 
-（待补充）
+(To be filled)
 
-## 交付要求
+## Deliverables
 
-（待补充）
+(To be filled)
 
-## 验收标准
+## Acceptance Criteria
 
-（待补充）
+(To be filled)

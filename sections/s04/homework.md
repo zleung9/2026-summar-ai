@@ -1,15 +1,15 @@
-# Section 4 作业
+# Section 4 Homework
 
-> 截止时间：8月9日
+> Due: August 9
 
-## 必做任务
+## Required Tasks
 
-（待补充）
+(To be filled)
 
-## 交付要求
+## Deliverables
 
-（待补充）
+(To be filled)
 
-## 验收标准
+## Acceptance Criteria
 
-（待补充）
+(To be filled)

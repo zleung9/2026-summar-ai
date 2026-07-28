@@ -1,24 +1,24 @@
-# Section 3：损失函数、梯度下降与分类
+# Section 3: Loss Functions, Gradient Descent & Classification
 
-> 时间：8月4日—8月6日
+> Dates: August 4 — August 6
 
-## 学习主题
+## Topics
 
-- 均方误差和平均绝对误差
-- 梯度下降的基本思想
+- Mean Squared Error and Mean Absolute Error
+- Basic idea of gradient descent
 - Logistic Regression
-- Accuracy、Precision、Recall和混淆矩阵
+- Accuracy, Precision, Recall, and the confusion matrix
 
-## 推荐资源
+## Recommended Resources
 
-（待补充）
+(To be filled)
 
-## 思考问题
+## Framing Questions
 
-（待补充）
+(To be filled)
 
-## 自查检查点
+## Self-Check
 
-你学完本节后，应该能够：
+After completing this section, you should be able to:
 
-- （待补充）
+- (To be filled)

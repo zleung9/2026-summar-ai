@@ -1,24 +1,24 @@
-# Section 2：材料数据与监督学习基础
+# Section 2: Material Data & Supervised Learning Basics
 
-> 时间：8月1日—8月3日
+> Dates: August 1 — August 3
 
-## 学习主题
+## Topics
 
-- 数据、特征和标签的概念
-- 回归问题与分类问题
-- 高分子材料数据的基本结构
-- pandas、NumPy和数据可视化基础
+- Concepts of data, features, and labels
+- Regression vs. classification problems
+- Basic structure of polymer material data
+- pandas, NumPy, and data visualization basics
 
-## 推荐资源
+## Recommended Resources
 
-（待补充）
+(To be filled)
 
-## 思考问题
+## Framing Questions
 
-（待补充）
+(To be filled)
 
-## 自查检查点
+## Self-Check
 
-你学完本节后，应该能够：
+After completing this section, you should be able to:
 
-- （待补充）
+- (To be filled)

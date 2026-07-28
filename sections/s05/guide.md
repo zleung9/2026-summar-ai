@@ -1,24 +1,24 @@
-# Section 5：神经网络与项目第一版
+# Section 5: Neural Networks & Project v1
 
-> 时间：8月10日—8月12日
+> Dates: August 10 — August 12
 
-## 学习主题
+## Topics
 
-- 神经元、权重和激活函数
-- 输入层、隐藏层和输出层
-- 前向传播与反向传播的基本思想
-- 使用 PyTorch 构建简单神经网络
+- Neurons, weights, and activation functions
+- Input, hidden, and output layers
+- Forward and backward propagation basics
+- Building a simple neural network with PyTorch
 
-## 推荐资源
+## Recommended Resources
 
-（待补充）
+(To be filled)
 
-## 思考问题
+## Framing Questions
 
-（待补充）
+(To be filled)
 
-## 自查检查点
+## Self-Check
 
-你学完本节后，应该能够：
+After completing this section, you should be able to:
 
-- （待补充）
+- (To be filled)

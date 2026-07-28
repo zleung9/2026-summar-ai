@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is an **instructor's repository** for a 24-day summer course: *AI Native Machine Learning Engineer*. The course guides a student (YR) to predict polymer material properties using ML, with two parallel threads:
 
-1. **Top-down**: Use AI coding tools (Claude Code / Codex) to build the project end-to-end
+1. **Top-down**: Use AI coding tools (Claude Code) to build the project end-to-end
 2. **Bottom-up**: Learn ML and neural network fundamentals, culminating in Transformers
 
 ## Pedagogical Model: Self-Study with Safety Net
@@ -28,7 +28,7 @@ This shapes everything we generate:
 ## Repository Structure
 
 ```
-sections/          # Per-section materials (s01–s08)
+sections/          # Per-section materials (s01–s08, added as course progresses)
   s01/
     guide.md       # Study guide: what to learn, where to find it, framing questions
     homework.md    # Homework / test with deliverables and acceptance criteria
@@ -48,7 +48,7 @@ When creating content for this repo:
 - **Study guides** should include: topic list, recommended reading/watching (with specific chapters/sections), 2–3 framing questions to think about, and a "you know enough when you can answer…" checkpoint
 - **Homework and tests** must have: clear deliverables, acceptance criteria, and a separate `answer-key.md` — the student should be able to judge their own progress
 - **Starter templates** should be incomplete enough to require thinking, but complete enough that the student isn't blocked on boilerplate
-- **All student-facing text** (guides, homework, templates) is in Chinese; variable/function names in English
+- **All student-facing text** (guides, homework, templates) is in English; variable/function names also in English
 - **Reference solutions and answer keys** are for the teacher — they explain *why*, so the teacher can diagnose where a student went wrong
 
 ## Course Rhythm

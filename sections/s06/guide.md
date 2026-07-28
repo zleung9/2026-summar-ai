@@ -1,25 +1,25 @@
-# Section 6：AI原生软件工程与项目升级
+# Section 6: AI-Native Software Engineering & Project Upgrade
 
-> 时间：9月15日—9月17日
+> Dates: September 15 — September 17
 
-## 学习主题
+## Topics
 
-- 使用 AI 阅读、重构和调试已有代码
-- 模块化项目结构
-- 配置文件、日志和异常处理
-- 单元测试与结果复现
-- Git分支、提交和版本管理
+- Using AI to read, refactor, and debug existing code
+- Modular project structure
+- Configuration files, logging, and error handling
+- Unit testing and result reproducibility
+- Git branching, commits, and version management
 
-## 推荐资源
+## Recommended Resources
 
-（待补充）
+(To be filled)
 
-## 思考问题
+## Framing Questions
 
-（待补充）
+(To be filled)
 
-## 自查检查点
+## Self-Check
 
-你学完本节后，应该能够：
+After completing this section, you should be able to:
 
-- （待补充）
+- (To be filled)
