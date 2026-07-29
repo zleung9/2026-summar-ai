@@ -1,3 +1,7 @@
+# Claude
+
+.claude/worktrees
+
 # Python
 __pycache__/
 *.py[cod]
@@ -19,6 +23,7 @@ build/
 data/raw/*.csv
 data/raw/*.xlsx
 data/processed/*.csv
+data/OpenPoly/Paper/
 
 # Environment
 .env
@@ -29,6 +34,9 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local reference-manager state
+.zotero-reader-state
 
 # IDE
 .vscode/
