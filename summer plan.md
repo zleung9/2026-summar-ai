@@ -1,5 +1,7 @@
 # AI Native Machine Learning Engineer — Summer Course Plan
 
+> This is a living plan. It will be updated as each section's guide, homework, and schedule evolve.
+
 ## Overall Goal
 
 24 study days centered on a polymer materials mini-project:
@@ -10,7 +12,7 @@ The target property (glass transition temperature, melting point, etc.) will be 
 
 The course follows two parallel threads:
 
-1. **Top-down:** Use Claude Code for data analysis, model development, debugging, testing, and project presentation.
+1. **Top-down:** Use Codex for data analysis, model development, debugging, testing, and project presentation.
 2. **Bottom-up:** Learn machine learning and neural network fundamentals, culminating in understanding Transformers.
 
 Final deliverables:
@@ -50,23 +52,23 @@ After each Section, schedule a **1-hour review session** as needed for:
 
 ### Topics
 
-- Install and configure Python, Git, GitHub, Claude Code
-- Learn how to describe tasks, provide context, and review code with AI
-- Use AI tools to create a personal learning plan
-- Learn basic Python project structure
+- GitHub forks, clones, branches, issues, pull requests, and code review
+- Running Python scripts and notebooks in VS Code
+- Virtual environments and dependency management with `uv`
+- Debugging with breakpoints and variable inspection
+- Using Codex while critically reviewing its suggestions
 
 ### Three-Day Tasks
 
-- Day 1: Set up the development environment and GitHub repository
-- Day 2: Use Claude Code to complete several simple Python programs
-- Day 3: Build the initial code framework for the polymer materials project
+- Day 1: Fork and clone the course repository; set up Python, `uv`, and VS Code
+- Day 2: Create and run a simple polymer-temperature script and notebook; practise debugging
+- Day 3: Review the work with Codex and submit it through a GitHub pull request
 
 ### Homework
 
-- Submit a development environment installation record
-- Submit your first GitHub project repository
-- Submit your personal learning plan
-- Submit a task list for the polymer materials project
+- Submit one pull request containing `polymer_demo.py` and `polymer_demo.ipynb`
+- Include a short debugger observation and reflection on one Codex suggestion
+- Ask questions through GitHub Issues when needed
 
 ---
 
@@ -84,7 +86,7 @@ After each Section, schedule a **1-hour review session** as needed for:
 ### Three-Day Tasks
 
 - Day 1: Decide which material property to predict
-- Day 2: Use Claude Code for data loading, cleaning, and visualization
+- Day 2: Use Codex for data loading, cleaning, and visualization
 - Day 3: Split train/test sets and build a linear regression baseline model
 
 ### Homework
@@ -164,7 +166,7 @@ After each Section, schedule a **1-hour review session** as needed for:
 ### Three-Day Tasks
 
 - Day 1: Understand the structure of a multi-layer perceptron
-- Day 2: Use Claude Code to write and train a simple neural network
+- Day 2: Use Codex to write and train a simple neural network
 - Day 3: Compare neural network results with traditional ML models
 
 ### Homework
@@ -184,7 +186,7 @@ After each Section, schedule a **1-hour review session** as needed for:
 
 ### Topics
 
-- Using Claude Code to read, refactor, and debug existing code
+- Using Codex to read, refactor, and debug existing code
 - Modular project structure
 - Configuration files, logging, and error handling
 - Unit testing and result reproducibility
@@ -269,7 +271,7 @@ Approximately 3 hours of study per day:
 
 - 8:00–8:30: Teacher check-in and previous day's homework review
 - 45 min: Complete theory study per the learning plan
-- 90 min: Use Claude Code for programming and project tasks
+- 90 min: Use Codex for programming and project tasks
 - 30 min: Record prompts, questions, and experiment results
 - 15 min: Commit code and write a learning log
 
