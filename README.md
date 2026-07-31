@@ -104,7 +104,7 @@ The section is complete when the student can answer these questions using numeri
 
 Complete one reproducible exploratory analysis of the supplied OpenPoly example dataset. Audit its structure and data quality, describe and visualize its distributions, compare Pearson and Spearman correlations, standardize the numeric properties, and interpret a PCA projection and explained-variance analysis.
 
-The notebook and written answers form one assignment that may be completed in any order over the section. See [`sections/s02/homework.md`](sections/s02/homework.md) for the required evidence, critical questions, and acceptance criteria.
+The notebook and written answers form one assignment that may be completed in any order over the section. Students begin with [`sections/s02/homework/s02_data_exploration_template.ipynb`](sections/s02/homework/s02_data_exploration_template.ipynb). See [`sections/s02/homework.md`](sections/s02/homework.md) for the required evidence, critical questions, and acceptance criteria.
 
 **Bonus:** Derive the main SVD steps and explain how SVD is used to compute PCA.
 

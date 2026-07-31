@@ -8,6 +8,22 @@ Produce one reproducible exploratory data analysis of a high-dimensional polymer
 
 This is one integrated assignment, not three separate daily tasks. Organize the work in whatever order helps you build a coherent analysis.
 
+## Start from the Notebook Template
+
+Copy:
+
+```text
+sections/s02/homework/s02_data_exploration_template.ipynb
+```
+
+to:
+
+```text
+sections/s02/submissions/<github-username>/s02_data_exploration.ipynb
+```
+
+The template contains the complete assignment as Markdown guidance, followed by blank code and answer cells. Keep its section headings, complete the blank cells, and add cells when your analysis needs them.
+
 ## Dataset
 
 Analyze:

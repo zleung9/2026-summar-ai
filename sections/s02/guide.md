@@ -8,6 +8,8 @@ Before choosing or training a model, learn to describe what a dataset contains, 
 
 You will complete one integrated exploratory analysis of a real polymer dataset. The work combines data auditing, descriptive statistics, visualization, correlation, standardization, and Principal Component Analysis (PCA). There is no separate day-by-day task list: use the questions and acceptance criteria in [homework.md](homework.md) to organize your work across the section.
 
+Begin with [the notebook template](homework/s02_data_exploration_template.ipynb). It contains the full assignment as Markdown guidance and leaves the code and answer cells for you to complete.
+
 ## Topics
 
 - Dataset structure, variable roles, data types, and data-quality checks
