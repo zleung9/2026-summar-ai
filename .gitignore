@@ -1,6 +1,5 @@
-# Claude
-
-.claude/worktrees
+# Claude (local memory / private notes — never commit)
+.claude/
 
 # Python
 __pycache__/
