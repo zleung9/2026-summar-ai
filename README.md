@@ -78,7 +78,16 @@ After each Section, schedule a **1-hour review session** as needed for:
 
 ### Purpose
 
-Develop an intuition for the dataset before building models. The student should be able to describe the typical values, variability, distributions, outliers, relationships, and dominant directions in the data.
+Develop an intuition for a polymer dataset before building models. Through one integrated exploratory-data-analysis homework, the student should learn to question what a summary or visualization actually supports:
+
+- What is a typical value, and when do the mean and median tell different stories?
+- What does a box plot reveal about center, spread, skew, and unusual observations—and what does it not prove?
+- Does a value of zero mean a real measurement, a calculation failure, or missing data?
+- When should Pearson and Spearman correlations agree or disagree?
+- Why must differently scaled features be standardized before PCA?
+- How much information do a few principal components retain, and what conclusions cannot be drawn from them?
+
+The section is complete when the student can answer these questions using numerical and visual evidence from the supplied dataset, while clearly separating observation from interpretation.
 
 ### Topics
 
@@ -91,20 +100,13 @@ Develop an intuition for the dataset before building models. The student should 
 - Principal Component Analysis (PCA), explained variance, and low-dimensional visualization
 - **Bonus:** Singular Value Decomposition (SVD), its derivation, and its connection to PCA
 
-### Three-Day Tasks
+### Integrated Homework
 
-- Day 1: Load and audit the polymer dataset; calculate descriptive statistics and inspect missing values
-- Day 2: Visualize distributions and outliers; compare Pearson and Spearman correlation matrices
-- Day 3: Standardize the features, run PCA, and interpret the principal components and explained variance
+Complete one reproducible exploratory analysis of the supplied OpenPoly example dataset. Audit its structure and data quality, describe and visualize its distributions, compare Pearson and Spearman correlations, standardize the numeric properties, and interpret a PCA projection and explained-variance analysis.
 
-### Homework
+The notebook and written answers form one assignment that may be completed in any order over the section. See [`sections/s02/homework.md`](sections/s02/homework.md) for the required evidence, critical questions, and acceptance criteria.
 
-- Submit a reproducible exploratory data analysis notebook
-- Include a descriptive-statistics table and a missing-data summary
-- Include distribution plots and box plots for important variables
-- Compare Pearson and Spearman correlations and explain at least one meaningful difference
-- Include a PCA projection and explained-variance analysis
-- **Bonus:** Derive the main SVD steps and explain how SVD is used to compute PCA
+**Bonus:** Derive the main SVD steps and explain how SVD is used to compute PCA.
 
 ---
 
