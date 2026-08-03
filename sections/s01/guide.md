@@ -84,8 +84,8 @@ Open the repository in VS Code and select the Python interpreter inside `.venv`.
 Create these two files:
 
 ```text
-submissions/<github-username>/polymer_demo.py
-submissions/<github-username>/polymer_demo.ipynb
+sections/s01/submissions/<github-username>/polymer_demo.py
+sections/s01/submissions/<github-username>/polymer_demo.ipynb
 ```
 
 Use this small dataset:
@@ -103,7 +103,7 @@ Both files should calculate and display the number of polymers and their average
 Run the script in VS Code and from the terminal:
 
 ```bash
-uv run python submissions/<github-username>/polymer_demo.py
+uv run python sections/s01/submissions/<github-username>/polymer_demo.py
 ```
 
 Then run every notebook cell with the `.venv` kernel.
