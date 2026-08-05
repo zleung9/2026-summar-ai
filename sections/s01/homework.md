@@ -16,8 +16,8 @@ If you have questions or encounter problems, ask them through GitHub Issues.
 
 Submit **one pull-request link** containing:
 
-1. `submissions/<github-username>/polymer_demo.py`
-2. `submissions/<github-username>/polymer_demo.ipynb`
+1. `sections/s01/submissions/<github-username>/polymer_demo.py`
+2. `sections/s01/submissions/<github-username>/polymer_demo.ipynb`
 3. A short pull-request description covering:
    - How you verified both files
    - What you inspected with the VS Code debugger
@@ -44,7 +44,7 @@ Useful commands:
 git remote -v
 uv venv
 uv pip install ipykernel
-uv run python submissions/<github-username>/polymer_demo.py
+uv run python sections/s01/submissions/<github-username>/polymer_demo.py
 ```
 
 See [guide.md](guide.md) for the complete workflow.

@@ -35,6 +35,8 @@ sections/          # Per-section materials (s01–s08, added as course progresse
     guide.md       # Study guide: what to learn, where to find it, framing questions
     homework.md    # Homework / test with deliverables and acceptance criteria
     answer-key.md  # Reference answers to homework/test questions
+    submissions/   # Student work, grouped by GitHub username
+      <username>/  # All homework submitted by one student for this section
   ...
 data/              # Polymer datasets for the course project
 notebooks/         # Reference notebooks (instructor use only)
@@ -52,6 +54,7 @@ When creating content for this repo:
 - Prefer a few relevant videos over long reading lists. Bilibili is the primary source for introductory tutorials; favor popular, focused videos and verify links before adding them.
 - Framing questions should ask why a tool or practice matters, what problem it prevents, and how the student should judge AI output. Avoid simple recall questions.
 - Favor one authentic end-to-end workflow over several disconnected documents. Whenever practical, students should learn by acting on the course repository: fork or clone it, create a branch, use Issues for questions, and submit work through a pull request.
+- Store every student's work under `sections/<section>/submissions/<github-username>/`; do not use a repository-level `submissions/` directory.
 - Demonstration code should be intentionally simple. The learning objective is the workflow or concept, not unnecessary programming difficulty.
 - AI use should be explicit but critical: students inspect changes, run the work, evaluate suggestions, and remain responsible for the result.
 - **Study guides** should include a topic list, a small set of recommended videos, 2–3 framing questions, practical guidance, and a concise self-check.
