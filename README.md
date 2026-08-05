@@ -26,23 +26,72 @@ Final deliverables:
 
 ## Q&A Schedule
 
-### Daily Check-in
-
-Every morning **8:00–8:30**, a 30-minute session for:
-
-- Reviewing the previous day's homework
-- Answering questions from learning and coding
-- Checking whether the student understands AI-generated code
-- Clarifying the day's learning tasks
-
-### Section-end Review
-
 After each Section, schedule a **1-hour review session** as needed for:
 
 - Resolving leftover issues from the section
 - Checking three days of homework
 - Discussing project design and model selection
 - Adjusting the next section's learning plan
+
+---
+
+## Course-Wide Grading Rubric
+
+Every section is graded on a 100-point scale using the same seven dimensions. A section-specific homework may divide these dimensions into more detailed criteria, but the overall standards remain the same.
+
+| Grading dimension | Points | Full-credit standard |
+|---|---:|---|
+| Required deliverables and scope | 10 | Every required artifact and critical-question response is present, uses the requested format, and addresses the assigned scope. |
+| Technical correctness and reproducibility | 25 | Calculations and implementations are correct; code runs from a clean start; dependencies, paths, configuration, and random seeds are handled where relevant; outputs contain no unresolved errors. |
+| Core concepts and critical reasoning | 25 | The student explains what was done and why, answers the section's critical questions, distinguishes observation from interpretation, considers alternatives, and states limitations. |
+| Evidence and evaluation | 15 | Claims are supported by appropriate data, outputs, plots, tests, metrics, comparisons, or citations. Evaluation uses valid splits and baselines and does not overstate what the evidence proves. |
+| Communication and organization | 10 | The submission is readable, logically organized, correctly labeled, and understandable without reconstructing the student's reasoning. Figures, tables, units, and conclusions are clear. |
+| AI-native workflow and independent judgment | 10 | AI use is documented where requested. The student verifies generated work, records at least one accepted and one changed or rejected suggestion when assigned, and remains able to defend the final result. |
+| Git and professional submission workflow | 5 | The required branch, commits, file locations, pull-request description, and issue links are complete and professionally presented. |
+| **Total** | **100** | |
+
+### Score Bands
+
+| Score | Result | Meaning |
+|---|---|---|
+| 90–100 | Mastery | Complete, correct, well-supported work that demonstrates independent understanding |
+| 80–89 | Complete | Core learning goals and acceptance criteria are met; small corrections may remain |
+| 70–79 | Revision required | Substantial work is present, but important evidence, correctness, or understanding is incomplete |
+| 0–69 | Incomplete | Core deliverables or learning goals have not yet been demonstrated reliably |
+
+A score of 80 or higher is considered complete only when all completion gates below are satisfied.
+
+### Completion Gates
+
+These requirements cannot be compensated for by strengths elsewhere in the submission:
+
+1. **Runnable evidence:** When execution is required, the final script or notebook must run from a clean start. A notebook must be restarted, run top-to-bottom, and saved with its outputs. Until this is demonstrated, the section remains **Revision required**.
+2. **Critical-question defense:** The student must answer the section's critical questions and be able to explain important AI-generated code or analysis during review. Unexplained copied output does not demonstrate completion.
+3. **Valid evaluation:** Data leakage, test-set misuse, an invalid baseline, or an incorrect metric invalidates the affected result. The evaluation must be redone before the section can be complete.
+4. **Evidence integrity:** Fabricated, altered, or unsupported results are not gradable until corrected. Hypotheses must be labeled as hypotheses rather than presented as observed facts.
+5. **Core deliverable:** Missing the section's primary artifact—such as the required notebook, model, experiment, report, or demonstration—makes the submission incomplete.
+
+### Applying the Rubric Across Sections
+
+The evidence changes as the course progresses, but the grading dimensions do not:
+
+| Section type | Examples of evidence expected |
+|---|---|
+| Development setup | Reproducible environment, working script and notebook, debugger evidence, and correct Git workflow |
+| Data exploration | Audits, descriptive statistics, readable plots, row-level investigation, and claims that separate observation from hypothesis |
+| Classical machine learning | Valid train/validation/test design, leakage prevention, baseline comparisons, appropriate metrics, and error analysis |
+| Neural networks and autoencoders | Correct tensor shapes, training curves, reproducible runs, overfitting analysis, reconstruction or latent-space evidence, and comparison with earlier baselines |
+| Transformers and MoE | Correct attention and routing logic, shape checks, expert-utilization evidence, efficiency measurements, and limitations of the architecture comparison |
+| Diffusion and flow matching | Correct training targets and sampling procedures, trajectory or sample evidence, real-versus-generated distribution comparisons, and evaluation limitations |
+| Final project and presentation | End-to-end reproducibility, justified design decisions, complete evaluation, clear documentation, and an oral defense grounded in project evidence |
+
+### Revisions, Bonus Work, and Finalization
+
+- Homework is assessed from the submitted state, including saved outputs and pull-request metadata.
+- Feedback identifies strengths, required corrections, and the evidence needed to demonstrate completion.
+- A revised submission may be regraded after the student clearly identifies what changed and reruns all affected results. The latest verified submission becomes the recorded grade.
+- Bonus work is evaluated only after all core requirements are attempted. It may add up to 5 points, but the recorded score cannot exceed 100 and bonus work cannot satisfy a completion gate.
+- AI assistance is encouraged and is not penalized. Grades measure the correctness, evidence, and understanding of the final work—not who typed the first draft.
 
 ---
 
