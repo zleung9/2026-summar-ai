@@ -77,7 +77,7 @@ Each section spans 3 days. The student works ~3 hours/day independently. The tea
 - AI-generated code is expected and encouraged; the student must verify it and demonstrate understanding during check-ins
 - Use `uv` for Python virtual environments and dependency management unless a later section has a specific reason to use something else
 - Use VS Code for running scripts and notebooks and for introductory debugging
-- scikit-learn (Sections 2–4) → PyTorch (Section 5+); don't introduce PyTorch early
+- scikit-learn (Sections 2–3) → PyTorch (Section 4+); don't introduce PyTorch before the deep-neural-network section
 - Target property is determined by data availability in Section 2; don't assume a specific dataset upfront
 
 ## Commands
