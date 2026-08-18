@@ -42,8 +42,7 @@ Useful commands:
 
 ```bash
 git remote -v
-uv venv
-uv pip install ipykernel
+uv sync
 uv run python sections/s01/submissions/<github-username>/polymer_demo.py
 ```
 
