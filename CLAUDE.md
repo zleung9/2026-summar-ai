@@ -9,7 +9,7 @@ This is an **instructor's repository** for a 24-day summer course: *AI Native Ma
 1. **Top-down**: Use Codex to build, inspect, debug, and review the project end-to-end
 2. **Bottom-up**: Learn ML and neural network fundamentals, culminating in Transformers
 
-`summer plan.md` is a living overview rather than a fixed syllabus. Section-level `guide.md` and `homework.md` files contain the most current details. When a section changes, update those files first and then synchronize the summary in `summer plan.md`.
+`README.md` is a living overview rather than a fixed syllabus. Section-level `guide.md` and `homework.md` files contain the most current details. When a section changes, update those files first and then synchronize the summary in `README.md`.
 
 ## Pedagogical Model: Self-Study with Safety Net
 
@@ -73,6 +73,7 @@ Each section spans 3 days. The student works ~3 hours/day independently. The tea
 ## Key Constraints
 
 - Student has ~3 hours/day; assignments must fit that budget
+- Assume some students have no prior knowledge of Git, terminals, Python environments, or `uv`. Introduce the problem and motivation before commands, define new vocabulary in plain language, and provide hand-by-hand checkpoints and safe troubleshooting.
 - The student is new to ML — framing questions in guides should use concrete examples before abstractions
 - AI-generated code is expected and encouraged; the student must verify it and demonstrate understanding during check-ins
 - Use `uv` for Python virtual environments and dependency management unless a later section has a specific reason to use something else
