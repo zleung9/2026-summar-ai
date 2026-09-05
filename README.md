@@ -249,31 +249,33 @@ Understand how neural networks learn and apply that understanding through a mult
 
 ### Purpose
 
-Learn representation learning by compressing data into a latent space and reconstructing it with an encoder-decoder model.
+Learn to treat a latent space as a model-dependent coordinate system. Build three autoencoder variations on established teaching datasets and use reconstructions, neighborhoods, probes, robustness tests, interpolation, and sampling to determine what each representation supports.
 
 ### Topics
 
-- Encoder, decoder, bottleneck, and latent space
-- Reconstruction objectives and reconstruction loss
-- The effect of latent-space dimensionality
-- Visualizing and interpreting latent representations
-- Denoising and regularized autoencoders
-- **Bonus:** Variational autoencoder intuition
+- Encoder, decoder, bottleneck, reconstruction, and latent coordinates
+- Undercomplete autoencoders and comparison with PCA
+- Denoising convolutional autoencoders and corruption-specific robustness
+- Variational autoencoders, reparameterization, KL regularization, and beta
+- Latent neighborhoods, probes, interpolation, traversal, and prior sampling
+- Limits of latent-space visualization and interpretation
 
 ### Three-Day Tasks
 
-- Day 1: Build and train a basic autoencoder and inspect reconstruction quality
-- Day 2: Explore the latent space and compare it with PCA
-- Day 3: Use latent features in a downstream prediction task and test different bottleneck sizes
+- Day 1: Train a two-dimensional dense autoencoder on UCI Wine; compare its reconstruction, coordinates, probe results, and interpolation with PCA
+- Day 2: Compare matched plain and denoising convolutional autoencoders on scikit-learn Digits across fixed Gaussian-noise levels
+- Day 3: Train two beta configurations of a two-dimensional VAE on a fixed Fashion-MNIST subset; inspect code occupancy, interpolations, and prior samples
 
 ### Homework
 
-- Repeat the core data exploration and compare raw-feature and latent-feature distributions
-- Submit the encoder, decoder, training loop, and reconstruction analysis
-- Visualize the latent space and compare it with the Section 2 PCA projection
-- Evaluate reconstruction error and the downstream prediction task
-- Report the appropriate regression or classification metrics from Section 3
-- Compare raw features, PCA features, and autoencoder features
+- Use Wine, Digits, and Fashion-MNIST rather than the polymer dataset
+- Submit the encoder/decoder implementations, reproducible splits, learning curves, held-out reconstruction evidence, and latent-space analyses
+- Compare raw, PCA, and frozen-AE representations with the same simple Wine cultivar probe
+- Compare plain and denoising Digits models with a fixed robustness curve and latent-distance evidence
+- Compare two VAE beta values using separate reconstruction/KL metrics, a latent map, decoder grid, interpolation, and an uncurated fixed-seed sample grid
+- Produce a final field guide that distinguishes compression, local geometry, robustness, downstream usefulness, and sampleability
+
+Students begin with [`sections/s05/homework/s05_autoencoders_template.ipynb`](sections/s05/homework/s05_autoencoders_template.ipynb). See [`sections/s05/homework.md`](sections/s05/homework.md) for the complete evidence requirements and acceptance criteria.
 
 **August 13–14: Makeup days, code cleanup, homework revision, and review session.**
 

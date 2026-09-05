@@ -14,6 +14,7 @@ dependencies = [
     "scipy>=1.16",
     "seaborn>=0.13",
     "torch>=2.8",
+    "torchvision>=0.23",
     "tqdm>=4.67",
 ]
 
