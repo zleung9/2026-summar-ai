@@ -1,153 +1,225 @@
 # Section 1 Answer Key
 
-(For teacher use only — do not share with students)
-
----
+> For teacher use only — do not share with students before submission.
 
 ## What This Section Tests
 
-Section 1 is not about ML knowledge — it's about readiness. The four homework tasks check whether the student can:
+Section 1 tests whether a student can complete one small, reproducible contribution using the course development workflow. It is primarily a readiness assessment rather than a programming challenge.
 
-1. Set up and verify a working development environment
-2. Use Git and GitHub for version control
-3. Communicate effectively with an AI coding assistant
-4. Break a large, unfamiliar project into manageable pieces
+The student should demonstrate that they can:
 
-A student who completes all four tasks successfully is ready to start the technical work in Section 2. A student who struggles with any of them will have compounding problems later — address these now.
+1. use the repository's `uv`-managed Python environment;
+2. create and run a Python script and a Jupyter notebook in VS Code;
+3. inspect program state with the VS Code debugger;
+4. review an AI suggestion and exercise independent judgment; and
+5. submit the work through an appropriately named branch and pull request.
 
----
+## Expected Deliverables
 
-## Task 1: Development Environment Installation Record
+One pull request should contain exactly these two required artifacts under the student's GitHub username:
 
-### What to look for
+```text
+sections/s01/submissions/<github-username>/polymer_demo.py
+sections/s01/submissions/<github-username>/polymer_demo.ipynb
+```
 
-| Element | What matters | Red flags |
-|---------|-------------|-----------|
-| Python version | 3.10 or higher | Python 2.x, or no version listed |
-| Virtual environment | They can create and activate one | They don't mention venv at all |
-| Git | Version listed, basic config done | No `user.name` / `user.email` set |
-| Claude Code | They've run it and gotten output | They only describe it, no evidence of use |
-| Issue documentation | Specific error message + specific fix | "Everything worked fine" or "I had some problems but figured it out" |
+Additional evidence may appear in the pull-request description, but extra files are not required.
 
-### Why this matters
+The pull request should come from:
 
-This is a diagnostic task. A student who can't set up their environment independently will be stuck every section. The "one issue" requirement is deliberate — there is always an issue, and students who don't record one are either not paying attention or not being honest. Both are problems.
+```text
+s01/<github-username>
+```
 
-If a student's only issue is "I forgot to activate the venv" — that's fine. The point is that they noticed, diagnosed, and fixed it.
+It should be ready for review rather than left as a draft.
 
----
+## Reference Data and Result
 
-## Task 2: First GitHub Repository
+Both artifacts should use these three values:
 
-### What to look for
+| Polymer | Tg (°C) |
+|---|---:|
+| PE | -125 |
+| PS | 100 |
+| PET | 70 |
 
-| Element | What matters | Red flags |
-|---------|-------------|-----------|
-| README | Clear purpose, student's name, what the project is | Empty or auto-generated GitHub template README |
-| .gitignore | Covers Python essentials | No `.gitignore`, or one that ignores nothing Python-specific |
-| Commit history | 3+ commits with meaningful messages | One giant "initial commit," or messages like "update," "fix," "aaa" |
-| Repository structure | Has `sections/s01/` with `env-setup.md` | Flat structure, all files in root |
+The expected count is `3`. The expected mean is:
 
-### Why this matters
+```text
+(-125 + 100 + 70) / 3 = 15.0 °C
+```
 
-This task establishes the habit of version-controlling everything from day one. The 3-commit minimum forces the student to commit incrementally rather than dumping everything at the deadline. The meaningful-message requirement introduces the idea that commit history is communication.
+Equivalent polymer names, variable names, formatting, or output wording are acceptable as long as the count, average, and units are unambiguous.
 
-If the student's commits are all within 5 minutes of each other at 11:55 PM on the due date, that's worth a conversation about work habits — not a grade deduction, but a coaching moment.
+## Reference Script
 
----
+One acceptable implementation is:
 
-## Task 3: Personal Learning Plan
+```python
+polymers = {
+    "PE": -125,
+    "PS": 100,
+    "PET": 70,
+}
 
-### What to look for
+polymer_count = len(polymers)
+average_tg = sum(polymers.values()) / polymer_count
 
-| Element | What matters | Red flags |
-|---------|-------------|-----------|
-| Self-assessment | Honest, specific about what they do/don't know | Vague ("I know some programming"), or clearly overconfident |
-| Weekly schedule | Specific days and time blocks | "3 hours a day" with no days or times — this plan will not survive contact with reality |
-| Section goals | Personal, not copied from the course plan | Paraphrased course topics ("I want to learn about neural networks") with no personal angle |
-| Risk list | Concrete risks + concrete mitigations | "I might get busy" with no mitigation — that's a wish, not a plan |
-| Prompts used | Shows iteration — prompts evolved based on output | Only one prompt, or all prompts are near-identical |
+print(f"Number of polymers: {polymer_count}")
+print(f"Average Tg: {average_tg:.1f} °C")
+```
 
-### Why this matters
+Expected output:
 
-The learning plan serves two purposes. First, it's metacognitive — the student thinks about how they learn best. Second, it's a commitment device — writing down a schedule makes it real.
+```text
+Number of polymers: 3
+Average Tg: 15.0 °C
+```
 
-The prompt documentation is the hidden assessment here. A student who pastes one prompt and says "it worked" hasn't learned the core skill of this section: iterating with AI. A student who shows how they refined their prompt based on what the AI produced — that's the behavior we want to see.
+A function or `main()` wrapper is optional. Do not deduct points for keeping this beginner exercise as a short top-level script.
 
-### Sample answers worth noting
+## Reference Notebook
 
-**Good self-assessment:**
-> "I took one Python course two years ago but haven't used it since. I remember loops and functions but not much about libraries. Math-wise, I did calculus in high school but statistics was never my thing. I'm excited about building something real but nervous about the math in the later sections."
+The notebook should contain:
 
-This is specific, honest, and gives the teacher something to work with.
+- at least one Markdown cell explaining what is being calculated;
+- executable Python code using the three assigned Tg values;
+- the polymer count and average Tg;
+- results consistent with the script; and
+- saved outputs from a restart-and-run-all execution.
 
-**Weak self-assessment:**
-> "I know some programming and I'm good at math."
+A reasonable structure is:
 
-Too vague to be useful. Ask follow-up questions at check-in.
+1. Markdown title and explanation;
+2. code cell defining the polymer data;
+3. code cell calculating and printing the count and average; and
+4. Markdown interpretation stating that the result is `3` polymers with an average Tg of `15.0 °C`.
 
-**Good risk + mitigation:**
-> "Risk: I have a part-time job that sometimes calls me in for extra shifts. Mitigation: I'll keep Saturday mornings as buffer time. If I miss a weekday session, I move it to Saturday, not skip it."
+The exact number of cells is not graded. A single well-explained code cell is acceptable.
 
-Specific risk, specific response, accountability built in.
+## Reproducibility Checks
 
-**Weak risk + mitigation:**
-> "Risk: Procrastination. Mitigation: I'll try not to procrastinate."
+Run the script from the repository root:
 
-No mechanism. Ask: "What will you do when you notice you're procrastinating? What's the trigger that tells you it's happening?"
+```bash
+uv sync
+uv run python sections/s01/submissions/<github-username>/polymer_demo.py
+```
 
----
+For the notebook, verify all of the following:
 
-## Task 4: Polymer Materials Project Task List
+1. it is valid notebook JSON and opens normally;
+2. its kernel uses the repository's `.venv` environment;
+3. **Restart Kernel and Run All Cells** completes without errors;
+4. the saved output contains the count `3` and average `15.0`; and
+5. no result depends on manually running cells out of order.
 
-### What to look for
+A notebook that can theoretically run but is submitted without saved outputs has not supplied the required runnable evidence. It must be rerun and resubmitted before the section can be marked complete.
 
-| Element | What matters | Red flags |
-|---------|-------------|-----------|
-| Phases | 4–6 logical groupings | 2 giant phases ("Preparation" and "Everything Else"), or 15 tiny ones |
-| Tasks per phase | 3–8 specific, actionable tasks | Tasks like "Do the ML stuff" or "Make it better" — not actionable |
-| Dependencies | Shows awareness of what must precede what | No dependencies at all (everything can be done in any order — unlikely) |
-| Section mapping | Tasks connected to course sections | All tasks mapped to Section 8, or random mappings |
+## Debugger Evidence
 
-### Why this matters
+The pull-request description should identify:
 
-This is the student's first attempt at scoping a real project. It will be wrong — probably very wrong — and that's expected. What matters is whether they've thought systematically about the problem.
+- where a breakpoint was placed;
+- which variables were inspected; and
+- what the observed values showed.
 
-At the section-end review, ask: "Which task on your list are you most uncertain about? Which one do you think you'll need to break down further?" These questions reveal whether the list is real thinking or perfunctory box-checking.
+For example:
 
-### Common student misconceptions
+> I placed a breakpoint before calculating the average. The Variables panel showed three dictionary entries with values `-125`, `100`, and `70`. After stepping over the calculation, `polymer_count` was `3` and `average_tg` was `15.0`.
 
-1. **"Data collection" as a single task** — Students often underestimate data work. Expect to see "Get polymer data" as one bullet. This is worth discussing: what does "getting data" actually involve? (Searching, downloading, understanding columns, checking for missing values, etc.)
+The wording need not match this example. The evidence should be specific enough to show that the student used the debugger rather than merely running the script.
 
-2. **Model training as the main event** — Students often think training the model is 80% of the work. In reality, data preparation and evaluation dominate. If their task list is 70% model tasks and 30% everything else, that's a teaching opportunity.
+## AI-Review Evidence
 
-3. **No iteration** — The task list often reads linearly: collect data → clean data → train model → done. There's no "go back and try a different approach." Ask: "Where in your plan do you stop to check if you're on the right track?"
+The pull-request description should record at least one concrete Codex suggestion and the student's decision to accept, change, or reject it.
 
----
+Full-credit evidence includes:
 
-## Section-End Review: Topics to Probe
+- the specific suggestion;
+- the student's decision;
+- a reason tied to correctness, readability, scope, or maintainability; and
+- confirmation that the final code was rerun after any change.
 
-At the 1-hour review session, use these questions to gauge understanding beyond the deliverables:
+Acceptable example:
 
-1. **"Show me your terminal history from one of the days."** — Reveals whether they're actually using the tools or just following instructions.
+> Codex suggested moving the calculation into a function. I rejected this suggestion because the assignment is a nine-line beginner demonstration and the top-level version is easier to read. I still reran the script and notebook to confirm both produced the same result.
 
-2. **"What was the worst piece of code Claude Code generated this week?"** — Tests whether they're reviewing AI output critically.
+Weak evidence includes “Codex said the code was good,” an unexplained list of suggestions, or a claim that does not match the submitted files.
 
-3. **"If you had to set up everything again from scratch on a new computer, how long would it take?"** — A proxy for genuine understanding vs. copy-pasting.
+## Pull-Request Description Checklist
 
-4. **"What's one thing you learned this section that wasn't in any of the resources I recommended?"** — Rewards curiosity and self-directed learning.
+The description should include:
 
-5. **"What question do you wish I had asked?"** — Often surfaces issues the student doesn't know how to bring up.
+- how the script was run and its output;
+- how the notebook was run and confirmation that it matches the script;
+- the debugger breakpoint and observation;
+- the Codex suggestion and the student's decision; and
+- links to GitHub Issues opened for this work, or `None` if no Issue was opened.
 
----
+Descriptions of problems written only inside the pull request are not GitHub Issue links. Do not require a student to invent an Issue when no question or blocker occurred.
 
-## Grading Notes
+## Grading Guidance
 
-Section 1 is pass/fail in practice. A student either has a working environment and a coherent plan, or they don't. The four tasks are interdependent:
+Use the course-wide 100-point rubric in the repository `README.md`. Apply its seven dimensions to Section 1 as follows.
 
-- If Task 1 fails (environment not working), nothing else can proceed. Stop and fix this before evaluating anything else.
-- If Task 2 fails (no repo / bad Git habits), it's an easy fix — but address it now before the repo accumulates weeks of work.
-- If Task 3 fails (no real learning plan), the student will drift. The plan doesn't need to be perfect, but it needs to be specific.
-- If Task 4 fails (no project task list), the student hasn't engaged with the purpose of the course. This is the most concerning failure mode.
+| Dimension | Points | Section 1 full-credit evidence |
+|---|---:|---|
+| Required deliverables and scope | 10 | Both correctly named files are in the student's required directory and perform the assigned three-polymer calculation. |
+| Technical correctness and reproducibility | 25 | The script runs through `uv`; the notebook is valid, runs top-to-bottom in the course environment, has saved outputs, and both report `3` and `15.0 °C`. |
+| Core concepts and critical reasoning | 25 | The student can explain the dictionary, count, average, script/notebook relationship, virtual environment, breakpoint observation, and reason for the AI-review decision. |
+| Evidence and evaluation | 15 | Console output, saved notebook output, debugger details, and verification statements support the student's claims. |
+| Communication and organization | 10 | Names, units, Markdown explanation, code layout, and pull-request description are clear and internally consistent. |
+| AI-native workflow and independent judgment | 10 | A specific Codex suggestion is documented and thoughtfully accepted, changed, or rejected; the final submission reflects the stated decision. |
+| Git and professional submission workflow | 5 | The branch is `s01/<github-username>`, the pull request contains the required metadata and Issue links/`None`, and it is ready for review. |
+| **Total** | **100** | |
 
-The section-end review is the real assessment. The written deliverables are conversation starters for that review.
+## Completion Gates
+
+The following failures override the numerical score and prevent the section from being marked complete:
+
+1. **Missing core artifact:** either required file is absent, incorrectly replaced by an unrelated project, or cannot be reviewed.
+2. **Missing runnable evidence:** the script fails, the notebook cannot run from a clean restart, or the notebook is not saved with outputs.
+3. **Incorrect core result:** the count or average is wrong in either artifact.
+4. **Missing workflow defense:** the student cannot explain the debugger observation or an important AI-generated part of the submitted work during review.
+5. **Unsupported evidence:** the pull-request claims materially conflict with the submitted files or outputs and are not corrected.
+
+A score of 80 or above counts as complete only after all applicable gates pass. A student may correct the affected evidence and request regrading.
+
+## Common Problems and Feedback
+
+### Correct code but notebook outputs are missing
+
+Ask the student to select the repository `.venv` kernel, restart the kernel, run all cells, save the notebook, and update the pull request. Keep the result at **Revision required** until the saved outputs are present.
+
+### Script and notebook use different calculations
+
+Ask the student to make both artifacts use the assigned values and produce the same result. The notebook should not contain a manually typed result that disagrees with its code.
+
+### Notebook is invalid or only works after out-of-order execution
+
+Ask the student to recreate or repair the notebook, restart the kernel, run from the first cell to the last, and save it. This fails the runnable-evidence gate.
+
+### Pull request says a suggestion was accepted, but the code does not contain it
+
+Ask the student to reconcile the description and final files. The student may either implement the suggestion or accurately explain why it was ultimately rejected.
+
+### Work is technically more advanced but does not answer the task
+
+Grade the assigned scope, not effort or complexity. An unrelated simulation, report, or visualization cannot replace the required count-and-average demonstration.
+
+### Branch name or pull-request metadata is wrong
+
+Deduct from Git and professional workflow. If the files and execution evidence are otherwise valid, this alone does not normally fail a completion gate.
+
+## Section-End Review Questions
+
+Use a short live review to confirm independent understanding:
+
+1. What problem does `uv` solve, and how do you know VS Code is using the same environment?
+2. Show where you placed the breakpoint. What changed after you stepped over the average calculation?
+3. Why did you accept, change, or reject the recorded Codex suggestion?
+4. If a fourth polymer were added, which outputs would change and why?
+5. How would you rerun both artifacts from a clean clone of the repository?
+
+The goal is not memorization. A satisfactory answer should connect the tool or code to the concrete work the student submitted.
